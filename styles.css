@@ -136,3 +136,30 @@ main {
         font-size: 2.5rem;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    nav {
+        height: 9rem;
+    }
+
+    .navbar-menu {
+        width: 100%;
+        padding-right: 2rem;
+        justify-content: space-between;
+    }
+
+    .links {
+        margin: auto;
+    }
+    
+    .links i {
+        font-size: 2.5rem;
+    }
+}
