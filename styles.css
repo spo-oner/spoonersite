@@ -110,7 +110,7 @@ main {
     text-align: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px){
     .navbar {
         flex-direction: column;
         margin: auto;
@@ -125,7 +125,7 @@ main {
     .navbar-menu {
         width: 100%;
         padding-right: 2rem;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .links {
@@ -137,7 +137,7 @@ main {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .navbar {
         flex-direction: column;
         margin: auto;
