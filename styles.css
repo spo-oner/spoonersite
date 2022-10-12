@@ -110,18 +110,29 @@ main {
     text-align: center;
 }
 
-@media (max-width: 576px) and (max-width: 575.98px) {
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+        padding-top: 0.5rem;
+    }
 
-}
+    nav {
+        height: 9rem;
+    }
 
-@media (max-width: 576px) and (max-width: 575.98px) {
+    .navbar-menu {
+        width: 100%;
+        padding-right: 2rem;
+        justify-content: space-between;
+    }
 
-}
-
-@media (max-width: 576px) and (max-width: 575.98px) {
-
-}
-
-@media (max-width: 576px) and (max-width: 575.98px) {
-
+    .links {
+        margin: auto;
+    }
+    
+    .links i {
+        font-size: 2.5rem;
+    }
 }
