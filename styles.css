@@ -1,0 +1,114 @@
+:root {
+    --text-color: #fff;
+    --navbar-color: #242526;
+    --links-hover: #acaead;
+    --menu-color-hover: #79b5f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+nav {
+    background-color: var(--navbar-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.5rem;
+    margin-left: 2em;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.navbar a, .navbar-menu {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    transition:all 0.2s ease; 
+}
+
+.navbar-menu {
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-top: 0;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: var(--menu-color-hover);
+}
+
+.navbar-menu li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.navbar p {
+    font-weight: 700;
+}
+
+.navbar i {
+    font-size: 1.5rem;
+    padding-bottom: 0.1em;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.links a:hover {
+    color: var(--links-hover);
+}
+
+main {
+    padding-top: 3.5rem;
+    position: relative;
+    width: auto;
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(
+        0deg, 
+        rgba(0,0,0,1) 0%, 
+        rgba(48,45,45,1) 62%, 
+        rgba(69,74,75,1) 100%
+    );
+}
+
+.main-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.main-page h1 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+@media (max-width: 576px) and (max-width: 575.98px) {
+
+}
