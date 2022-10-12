@@ -84,6 +84,7 @@ nav {
 }
 
 main {
+    display: flex;
     padding-top: 3.5rem;
     position: relative;
     width: auto;
@@ -98,7 +99,7 @@ main {
 }
 
 .main-page {
-    height: 100vh;
+    flex-grow: 1;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -107,6 +108,18 @@ main {
 .main-page h1 {
     color: var(--text-color);
     text-align: center;
+}
+
+@media (max-width: 576px) and (max-width: 575.98px) {
+
+}
+
+@media (max-width: 576px) and (max-width: 575.98px) {
+
+}
+
+@media (max-width: 576px) and (max-width: 575.98px) {
+
 }
 
 @media (max-width: 576px) and (max-width: 575.98px) {
